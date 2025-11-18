@@ -1,0 +1,23 @@
+{
+  "preset": "minecraft:creeper",
+  "isHumanoid": false,
+  "attributes": {
+    "impact": 0.5,
+    "armor_negation": 0.0,
+    "max_strikes": 1,
+    "chasing_speed": 1.2
+  },
+  "combat_behavior": {
+    "behaviors": [
+      {
+        "behavior_series": [
+          {
+            "weight": 100.0,
+            "behavior": "epicfight:melee_attack",
+            "cooldown": 40
+          }
+        ]
+      }
+    ]
+  }
+}
